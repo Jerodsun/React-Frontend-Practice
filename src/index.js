@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import BarchartPlot from './react-timeseries';
+import CurrencySampler from './components/currency-example';
 
 ReactDOM.render(
-    <BarchartPlot />,
+    <CurrencySampler />,
     document.getElementById('root')
   );
   
