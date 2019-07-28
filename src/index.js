@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import CurrencySampler from './App';
+import Wrapper from './App';
 
 ReactDOM.render(
-    <CurrencySampler />,
+    <Wrapper />,
     document.getElementById('root')
   );
   
