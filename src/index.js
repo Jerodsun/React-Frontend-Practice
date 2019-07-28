@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import CurrencySampler from './components/currency-example';
+import CurrencySampler from './App';
 
 ReactDOM.render(
     <CurrencySampler />,
