@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './newApp';
 import * as serviceWorker from './serviceWorker';
+import BarchartPlot from './react-timeseries';
 
 ReactDOM.render(
-    <App />,
+    <BarchartPlot />,
     document.getElementById('root')
   );
   
