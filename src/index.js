@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
-import App from './newApp';
 import * as serviceWorker from './serviceWorker';
 import BarchartPlot from './react-timeseries';
 
