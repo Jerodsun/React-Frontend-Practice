@@ -11,8 +11,8 @@ import { ChartContainer, ChartRow, Charts, YAxis, LineChart, Baseline, Legend, R
 
 
 // Data
-const aud = require("../assets/static/usd_vs_aud.json");
-const euro = require("../assets/static/usd_vs_euro.json");
+const aud = require("../assets/static/examples/usd_vs_aud.json");
+const euro = require("../assets/static/examples/usd_vs_euro.json");
 
 function buildPoints() {
     const audPoints = aud.widget[0].data.reverse();
